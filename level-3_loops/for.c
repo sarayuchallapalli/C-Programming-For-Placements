@@ -1,0 +1,35 @@
+#include<stdio.h>
+ 
+
+int main()
+
+{
+
+    
+    for(int i=1; i<5; i++)//i → controls how many rows we need
+    {
+        for(int j=1; j<=i; j++)//j → controls what values we print inside each row
+        {
+            printf("%d ", j);
+        }
+      printf("\n");
+    }
+    for(int i=5; i>0; i--)
+    {
+        for(int j=1; j<=i; j++)
+        {
+            printf("%d ", j);
+        }
+        printf("\n");
+    }
+    for(int i=1; i<5; i++)
+    {
+        for(int j=1; j<=i; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+
+}
