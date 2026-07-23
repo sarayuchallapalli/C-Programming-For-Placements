@@ -24,7 +24,7 @@ printf("\n");
 
             if(j == 2)
             {
-                break;//break statement will terminate the inner loop when j is equal to 2
+                break;//break always affects only the nearest loop.
             }
         }
 
