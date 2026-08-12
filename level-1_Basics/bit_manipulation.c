@@ -4,7 +4,7 @@ int main()
 
 {
 
-    int reg = 00001111; // Example register value
+    int reg = 0b00001111; // Example register value
 
     //set bit 
     reg = reg | (1<<3); // 1<<3,(00001000)
