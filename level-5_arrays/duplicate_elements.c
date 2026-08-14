@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    
+
     int a[10];
     printf("enter the numbers:");
     for(int i=0;i<10;i++){
@@ -19,7 +19,7 @@ int main()
             continue;
         }
     }
-    printf("no duplicate elements found\n");
+    
     for(int i=0;i<10;i++){
         
         for(int j=i+1;j<10;j++){
