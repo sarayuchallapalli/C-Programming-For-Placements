@@ -10,7 +10,7 @@ int basic2(){// no arguments and with return type
     return 0;
 }
 int basic3(int a){// with arguments and with return type
-    
+    printf("nothing %d\n",a);
     return a;
 }
 int add(int a,int b);//function declaration
@@ -23,7 +23,7 @@ int main()
     basic2();
     basic3(5);
     result=add(5,6);
-    printf("result is %d",result);
+    printf("result is %d\n",result);
     return 0;
 }
 int add(int a,int b){//function definition
